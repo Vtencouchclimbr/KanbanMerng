@@ -17,6 +17,7 @@ const server = new ApolloServer({
 });
 
 const startApolloServer = async () => {
+  console.log(process.env.MONGODB_URI);
   await server.start();
   await db();
 
