@@ -1,0 +1,23 @@
+{
+  "name": "kanbanmerng",
+  "version": "1.0.0",
+  "description": "Kanban Board built using the Mern stack with GraphQL",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd server && npm start",
+    "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm run dev\"",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "build": "concurrently \"cd server && npm run build\" \"cd client && npm run build\"",
+    "render-build": "npm install && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.0",
+    "wait-on": "^7.2.0"
+  },
+  "dependencies": {
+    "mongoose": "^8.7.1"
+  }
+}
