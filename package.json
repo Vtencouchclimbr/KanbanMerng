@@ -18,6 +18,6 @@
     "wait-on": "^7.2.0"
   },
   "dependencies": {
-    "mongoose": "^8.7.1"
+    "mongoose": "^8.8.3"
   }
 }
